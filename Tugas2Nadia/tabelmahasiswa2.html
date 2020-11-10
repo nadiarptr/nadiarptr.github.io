@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<title>Data Mahasiswa</title>
+</head>
+
+<body>
+<!--konten-->
+<div class="header">
+    <h1 class=bg-warning><center> Header Web </center></h1>
+</div>
+<br>
+<br>
+<div class="container">
+<h3><center>Tabel Data Mahasiswa<center></h3>
+    <table class="table table-bordered">
+  <thead class="thead bg-info">
+  <tr>
+    <th><center>No</th>
+    <th>Nama</th>
+    <th>NPM</th>
+    <th>Alamat</th>
+  </tr>
+  </thead>
+   <tbody>
+    <tr>
+      <th>1.</th>
+      <td>Nadia Rahadi Putri</td>
+      <td>14117372</td>
+      <td>Bekasi</td>
+    </tr>
+    <tr>
+      <th>2.</th>
+      <td>Putri Aprilyani</td>
+      <td>14117766</td>
+      <td>Depok</td>
+    </tr>
+    <tr>
+      <th>3.</th>
+      <td>Sri Rahayu Adiningsih</td>
+      <td>15117762</td>
+      <td>Bogor</td>
+    </tr>
+    <tr>
+        <th>4.</th>
+        <td>Yudi skandar</td>
+        <td>16117330</td>
+        <td>Cileungsi</td>
+      </tr>
+    </tbody>
+ </table>
+ </div>
+
+<br>
+<br>
+
+<!-- Form -->
+<div class="container">
+        <div class="row">
+        <div class="col-md-4 col-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Tambah Data Mahasiswa</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <label>Nama</label>
+                                <input type="text" class="form-control" name="nama">
+                            </div>
+                            <div class="form-group">
+                                <label>NPM</label>
+                                <input type="number" class="form-control" name="npm">
+                            </div>
+       <div class="form-group">
+                                <label>Alamat </label>
+                                <textarea class="form-control" name="alamat"></textarea>
+                            </div>
+                            <button class="btn btn-warning" name="submit">Tambah Data</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+</html>
